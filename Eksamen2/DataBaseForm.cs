@@ -61,6 +61,7 @@ namespace Eksamen2
             adapter.Fill(ds, "List");
             dataGridView1.DataSource = ds;
             dataGridView1.DataMember = "List";
+
         }
     }
 }
